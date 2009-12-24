@@ -1,0 +1,11 @@
+<configure
+   xmlns="http://namespaces.zope.org/zope"
+   xmlns:zojax="http://namespaces.zope.org/zojax">
+
+  <zojax:resourceinclude
+     name="jquery.metadata.js"
+     library="jquery-plugins" require="jquery"
+     standalone="true"
+     type="javascript" file="jquery.metadata.js" />
+
+</configure>
